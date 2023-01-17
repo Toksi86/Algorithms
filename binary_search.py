@@ -14,4 +14,11 @@ def binary_search(arr, target):
     return None
 
 
-print(binary_search([1, 2, 3, 4, 5], 6))
+def test():
+    arr = [-15, -10, 0, 1, 4, 10, 21, 54]
+    print(binary_search(arr, -15))
+    print(binary_search(arr, 0))
+    print(binary_search(arr, 21))
+
+
+test()
